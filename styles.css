@@ -16,7 +16,35 @@ body {
   );
 }
 
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #fff;
+}
+
+nav {
+  padding: 10px 0;
+}
+
 .container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  max-height: 150px;
+  border-radius: 15%;
+}
+
+
+
+.content {
   text-align: center;
   background-color: rgba(255, 255, 255, 0.8);
   padding: 20px;
@@ -25,8 +53,8 @@ body {
 }
 
 h1 {
-  margin-bottom: 20px;
-  color: #333;
+  margin-bottom: 100px;
+    color: #333;
 }
 
 input[type="date"] {
@@ -42,7 +70,7 @@ button {
   background-color: #998989;
   color: white;
   border: none;
-  padding: 20px 30px;
+  padding: 15px 60px;
   border-radius: 10px;
   cursor: pointer;
   transition: background-color 0.3s;
